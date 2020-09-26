@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: absolute;
+	top: calc(50% - 259px);
+	left: calc(50% - 258px);
+	width: 516px;
+}
+.result {
+	width: 516px;
+	height: 100px;
+	margin-bottom: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	text-align: right;
+	background-color: #000;
+}
+button {
+	width: 100px;
+	height: 100px;
+	margin: 2px 0;
+	border: none;
+	outline: none;
+	background-color: #eee;
+}
+button:active { background-color: #fff; }
